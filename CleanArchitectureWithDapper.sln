@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithDapper.WebApi", "CleanArchitectureWithDapper.WebApi\CleanArchitectureWithDapper.WebApi.csproj", "{48918A7D-C248-40A6-830B-755E089FA672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureWithDapper.WebApi", "CleanArchitectureWithDapper.WebApi\CleanArchitectureWithDapper.WebApi.csproj", "{48918A7D-C248-40A6-830B-755E089FA672}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureWithDapper.Application", "CleanArchitectureWithDapper.Application\CleanArchitectureWithDapper.Application.csproj", "{B33EBFAB-70C4-49F6-B80B-5E0E7D2FBD6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureWithDapper.Core", "CleanArchitectureWithDapper.Core\CleanArchitectureWithDapper.Core.csproj", "{6C9B3957-EB44-46BE-A9CB-F3DD713C3E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureWithDapper.Infrastructure", "CleanArchitectureWithDapper.Infrastructure\CleanArchitectureWithDapper.Infrastructure.csproj", "{16C479A0-FB26-428F-88A3-C861C54B8401}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CleanArchitectureWithDapper.SQLDatabase", "CleanArchitectureWithDapper.SQLDatabase\CleanArchitectureWithDapper.SQLDatabase.sqlproj", "{705AC693-783A-4147-BD12-86E2D55823CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,24 @@ Global
 		{48918A7D-C248-40A6-830B-755E089FA672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48918A7D-C248-40A6-830B-755E089FA672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48918A7D-C248-40A6-830B-755E089FA672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33EBFAB-70C4-49F6-B80B-5E0E7D2FBD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33EBFAB-70C4-49F6-B80B-5E0E7D2FBD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33EBFAB-70C4-49F6-B80B-5E0E7D2FBD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33EBFAB-70C4-49F6-B80B-5E0E7D2FBD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9B3957-EB44-46BE-A9CB-F3DD713C3E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9B3957-EB44-46BE-A9CB-F3DD713C3E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9B3957-EB44-46BE-A9CB-F3DD713C3E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9B3957-EB44-46BE-A9CB-F3DD713C3E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C479A0-FB26-428F-88A3-C861C54B8401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C479A0-FB26-428F-88A3-C861C54B8401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C479A0-FB26-428F-88A3-C861C54B8401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C479A0-FB26-428F-88A3-C861C54B8401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705AC693-783A-4147-BD12-86E2D55823CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
